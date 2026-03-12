@@ -7,28 +7,6 @@
   --transition: all 0.3s ease;
 }
 
-* {
-  box-sizing: content-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: var(--white);
-  color: var(--primary);
-  font-family: "Merriweather", serif;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 /* ===== CABEÇALHO ===== */
 .cabecalho {
   background: linear-gradient(75deg, var(--primary), var(--primary-dark));
