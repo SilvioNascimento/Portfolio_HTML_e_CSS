@@ -1,5 +1,5 @@
 :root {
-  --primary: #1365a8;
+  --primary: #10568f;
   --primary-dark: #041729;
   --white: #fff;
   --dark: #2d3748;
@@ -11,6 +11,10 @@
   box-sizing: content-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -28,11 +32,16 @@ body {
 /* ===== CABEÇALHO ===== */
 .cabecalho {
   background: linear-gradient(75deg, var(--primary), var(--primary-dark));
-  color: white;
+  color: var(--white);
   text-align: center;
   padding: 60px 0;
   position: relative;
   z-index: 10;
+}
+
+.cabecalho .container {
+  position: relative;
+  z-index: 2;
 }
 
 .foto-perfil {
@@ -60,4 +69,56 @@ body {
   font-size: 1.25rem;
   margin-bottom: 30px;
   font-weight: 700;
+}
+
+/* ===== NAVEGAÇÃO ===== */
+.menu-checkbox {
+  display: none;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  width: 40px;
+  height: 30px;
+  justify-content: space-between;
+  padding: 5px;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  z-index: 100;
+}
+
+.menu-toggle span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: var(--white);
+  border-radius: 2px;
+  transition: var(--transition);
+}
+
+.navegacao {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.navegacao a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: var(--transition);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.navegacao a:hover{
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
 }
