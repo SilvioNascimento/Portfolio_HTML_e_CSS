@@ -46,7 +46,7 @@
 .cargo {
   font-size: 1.25rem;
   margin-bottom: 30px;
-  font-weight: 700;
+  opacity: 0.9;
 }
 
 /* ===== NAVEGAÇÃO ===== */
@@ -58,8 +58,8 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
-  width: 40px;
-  height: 30px;
+  width: 30px;
+  height: 20px;
   justify-content: space-between;
   padding: 5px;
   position: absolute;
