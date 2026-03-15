@@ -3,7 +3,9 @@
   --primary-dark: #1B3245;
   --white: #fff;
   --dark: #2d3748;
+  --light: #e6edf1;
   --gray: #718096;
   --shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   --transition: all 0.3s ease;
+  --border-radius: 15px;
 }
