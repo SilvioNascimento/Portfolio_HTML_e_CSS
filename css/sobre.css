@@ -1,0 +1,27 @@
+.sobre-conteudo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.sobre-texto p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+.listagem-tecnologias li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-left: 40px;
+    text-align: justify;
+}
+
+.sobre-texto strong {
+  color: var(--primary);
+}
+
