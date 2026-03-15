@@ -1,11 +1,4 @@
-:root {
-  --primary: #10568f;
-  --primary-dark: #1a3650;
-  --white: #fff;
-  --dark: #2d3748;
-  --shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-  --transition: all 0.3s ease;
-}
+@import url("variaveis.css");
 
 /* ===== CABEÇALHO ===== */
 .cabecalho {
@@ -23,7 +16,7 @@
 }
 
 .foto-perfil {
-  border: 2px solid var(--dark);
+  border: 3px solid var(--dark);
   width: 150px;
   height: 150px;
   border-radius: 50%;

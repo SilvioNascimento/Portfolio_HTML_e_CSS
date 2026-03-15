@@ -1,7 +1,4 @@
-:root {
-  --primary: #10568f;
-  --white: #fff;
-}
+@import url("variaveis.css");
 
 * {
   box-sizing: content-box;
@@ -15,7 +12,7 @@ html {
 
 body {
   background-color: var(--white);
-  color: var(--primary);
+  color: var(--dark);
   font-family: "Merriweather", serif;
 }
 
