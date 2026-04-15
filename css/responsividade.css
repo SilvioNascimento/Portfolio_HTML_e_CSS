@@ -50,6 +50,12 @@
         width: 120px;
         height: 120px;
     }
+
+    .imagem-destaque {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
