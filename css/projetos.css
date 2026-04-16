@@ -1,11 +1,11 @@
 @import url("variaveis.css");
 
-.card-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* min-height: 100vh; */
-  /* background: radial-gradient(var(--primary-dark), var(--primary)); */
+.card-wrapper.swiper {
+  max-width: 1200px; /* Ou a largura do seu container */
+  margin: 0 auto;
+  padding: 40px 60px; /* Espaço para as sombras em cima e setas nas laterais */
+  overflow: hidden; /* Importante para esconder os cards que estão "fora" */
+  position: relative;
 }
 
 .card-list .card-item {
@@ -13,19 +13,19 @@
 }
 
 .card-list .card-item .card-link {
-  width: 400px;
+  user-select: none;
   display: block;
   background: var(--light);
   padding: 18px;
   border-radius: var(--border-radius);
   text-decoration: none;
   border: 2px solid transparent;
-  box-shadow: var(--shadow);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
   transition: 0.2s ease;
 }
 
 .card-list .card-item .card-link:hover {
-    border-color: var(--primary);
+  border-color: var(--primary);
 }
 
 .card-list .card-link .card-image {
@@ -38,6 +38,7 @@
 .card-list .card-link .area-badge {
   display: flex;
   flex-direction: row;
+  gap: 5px;
   margin: 16px 0 18px;
 }
 
@@ -48,19 +49,37 @@
   text-align: center;
   width: fit-content;
   border-radius: 50px;
+  color: var(--primary);
+  background: var(--light);
+  border: 2px solid var(--primary);
 }
 
-.status-projeto {
-  background: var(--badge-status-background);
-  color: var(--badge-status-color);
-  border: 2px solid var(--badge-status-color);
-  margin-right: 5px;
+.card-list .card-link .badge.status-concluido {
+  color: #258508;
+  border: 2px solid #258508;
+  background: #abff91;
 }
 
-.area-atuacao {
-  background: var(--badge-area-atuacao-background);
-  color: var(--badge-area-atuacao-color);
-  border: 2px solid var(--badge-area-atuacao-color);
+.card-list .card-link .badge.status-em-evolucao {
+  color: #e2552b;
+  border: 2px solid #e2552b;
+  background: #fcd1c4;
+}
+
+.card-list .card-link .badge.status-em-producao {
+  color: #7b1fa2;
+  border: 2px solid #7b1fa2;
+  background: #f3e5f5;
+}
+
+.card-list .card-link .badge.area-full-stack,
+.card-list .card-link .badge.area-back-end,
+.card-list .card-link .badge.area-front-end {
+  color: var(--dark);
+  border: 2px solid var(--dark);
+  background: #f5f5f5;
+  text-transform: uppercase; /* Opcional: dá um ar mais "tag" */
+  letter-spacing: 0.5px;
 }
 
 .card-list .card-link .card-title {
@@ -78,19 +97,24 @@
 }
 
 .card-list .card-link .card-buttom {
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
-    margin: 30px 0 5px;
-    color: var(--primary);
-    border: 2px solid var(--primary);
-    background: none;
-    cursor: pointer;
-    transform: rotate(-45deg);
-    transition: 0.4s ease;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin: 30px 0 5px;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  background: none;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  transition: 0.4s ease;
 }
 
 .card-list .card-link:hover .card-buttom {
-    color: var(--white);
-    background: var(--primary);
+  color: var(--white);
+  background: var(--primary);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--primary); /* Ou a cor que desejar */
 }
