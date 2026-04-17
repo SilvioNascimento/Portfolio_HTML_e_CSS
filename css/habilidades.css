@@ -1,0 +1,41 @@
+@import url("variaveis.css");
+
+.grade-habilidades {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.grupo-habilidades {
+  background: var(--white);
+  padding: 40px 30px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.grupo-habilidades:hover {
+  transform: scale(1.03);
+}
+
+.grupo-habilidades h3 {
+  margin-bottom: 20px;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.grupo-habilidades ul {
+  list-style: none;
+}
+
+.grupo-habilidades li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(113, 128, 150, 0.4);
+}
+
+.grupo-habilidades li:last-child {
+  border-bottom: none;
+}
