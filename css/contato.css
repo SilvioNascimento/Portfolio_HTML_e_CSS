@@ -1,0 +1,87 @@
+@import url("variaveis.css");
+
+.contato-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.contatos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contatos a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--dark);
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: var(--transition);
+  padding: 15px;
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.contatos a:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  transform: translateX(10px);
+}
+
+.form-contato {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  width: 90%;
+}
+
+.grupo-input {
+  margin-bottom: 1.15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo-input label {
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.grupo-input input,
+.grupo-input textarea {
+  padding: 0.75rem;
+  color: var(--gray);
+  border-radius: 8px;
+  border: 1px solid var(--gray);
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.grupo-input textarea {
+  resize: vertical;   /* Permite que aumente apenas na vertical, e não horizontal */
+  max-width: 100%;    /* Estabeler que a largura máxima de textarea seja 100% */
+  min-height: 55px;
+}
+
+.btn-enviar {
+  margin-top: 15px;
+  background: var(--primary-dark);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+  background-color: var(--primary);
+}
