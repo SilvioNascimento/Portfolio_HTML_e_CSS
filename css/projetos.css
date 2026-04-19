@@ -37,8 +37,10 @@
 .card-list .card-link .card-image {
   width: 100%;
   aspect-ratio: 16/9;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 13px;
+  background-color: var(--dark);
+  overflow: hidden;
 }
 
 .card-list .card-link .area-badge {
