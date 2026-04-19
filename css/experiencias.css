@@ -1,0 +1,67 @@
+@import url("variaveis.css");
+
+.galeria-experiencia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin: 50px auto;
+}
+
+.item-visual {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+.item-visual:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.foto-experiencia {
+  width: 100%;
+  max-height: 250px;
+  height: auto;
+  object-fit: contain;
+  align-self: center;
+  padding: 15px;
+  background-color: var(--light);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  filter: grayscale(20%);
+  transition: var(--transition);
+}
+
+.item-visual:hover .foto-experiencia {
+  filter: grayscale(0%);
+}
+
+.legenda-experiencia,
+.data-experiencia {
+  padding: 15px;
+  color: var(--dark);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.descricao-experiencia {
+  padding: 0 15px;
+  color: var(--dark);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
+}
