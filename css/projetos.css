@@ -3,7 +3,7 @@
 .card-wrapper.swiper {
   max-width: 1200px; /* Ou a largura do seu container */
   margin: 0 auto;
-  padding: 40px 60px; /* Espaço para as sombras em cima e setas nas laterais */
+  padding: 40px 48px; /* Espaço para as sombras em cima e setas nas laterais */
   overflow: hidden; /* Importante para esconder os cards que estão "fora" */
   position: relative;
 }
