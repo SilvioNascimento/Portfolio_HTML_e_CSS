@@ -34,9 +34,9 @@
         max-height: 300px;
     }
     
-    /* .grade-premiacoes {
+    .lista-formacao {
         grid-template-columns: 1fr;
-    } */
+    }
 
     .nome {
         font-size: 2rem;
