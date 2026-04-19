@@ -16,6 +16,11 @@
 .card-list .card-item .card-link {
   user-select: none;
   background: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  box-sizing: border-box;
   padding: 18px;
   border-radius: var(--border-radius);
   text-decoration: none;
