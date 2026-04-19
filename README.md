@@ -22,3 +22,13 @@ A seguir serão listados as inspirações que obtive após verificar seus materi
   - Tipo de material: Portfólio
   - Link: [https://carlos-cgs.github.io/CGS/index.html](https://carlos-cgs.github.io/CGS/index.html)
 
+## Tecnologias utilizadas
+
+- **HTML5**: Desenvolver a estrutura do Portfólio;
+- **CSS3**: Estilizar os elementos do Portfólio;
+- **JavaScript**: Atribuir a funcionalidade de carrossel nos projetos realizados no portfólio;
+- **Google Fonts**: Inserir fontes e ícones de setas para o carrossel;
+- **Font Awesome**: Atribuir ícones no portfólio;
+- **SwiperJS CSS**: Utilizar o efeito carrossel já pré-definido;
+- **Enhancv**: Plataforma utilizado para desenvolver o currículo;
+- **Formspree**: Serviço para enviar e-mails de um formulário HTML sem precisar ter um back-end desenvolvido.
