@@ -1,0 +1,9 @@
+@import url("variaveis.css");
+
+footer {
+  background: var(--dark);
+  color: var(--white);
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 50px;
+}
