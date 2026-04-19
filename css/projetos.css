@@ -15,7 +15,6 @@
 
 .card-list .card-item .card-link {
   user-select: none;
-  display: block;
   background: var(--light);
   padding: 18px;
   border-radius: var(--border-radius);
