@@ -1,0 +1,22 @@
+@import url("variaveis.css");
+
+.formacao {
+  background: var(--white);
+  padding: 40px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.lista-formacao {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.lista-formacao li {
+  padding: 10px;
+  color: var(--gray);
+  border-left: 4px solid color-mix(in oklab, var(--dark) 75%, transparent);
+  padding-left: 10px;
+}
