@@ -10,6 +10,7 @@
 
 .card-list .card-item {
   list-style: none;
+  height: auto;
 }
 
 .card-list .card-item .card-link {
