@@ -128,4 +128,21 @@
 .swiper-button-next,
 .swiper-button-prev {
   color: var(--primary); /* Ou a cor que desejar */
+  transition: all 0.3s ease;
+}
+
+/* Reposicionando as setas para as extremidades do padding */
+.swiper-button-prev {
+  left: 0 !important;
+}
+
+.swiper-button-next {
+  right: 0 !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: var(--dark);
+  transform: scale(1.05);
+  font-weight: 700;
 }
