@@ -30,5 +30,5 @@ A seguir serão listados as inspirações que obtive após verificar seus materi
 - **Google Fonts**: Inserir fontes e ícones de setas para o carrossel;
 - **Font Awesome**: Atribuir ícones no portfólio;
 - **SwiperJS CSS**: Utilizar o efeito carrossel já pré-definido;
-- **Enhancv**: Plataforma utilizado para desenvolver o currículo;
+- **Microsoft Word 2019**: Software utilizado para desenvolver o currículo;
 - **Formspree**: Serviço para enviar e-mails de um formulário HTML sem precisar ter um back-end desenvolvido.
