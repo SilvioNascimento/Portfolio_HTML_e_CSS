@@ -33,7 +33,9 @@
   transform: translateX(10px);
 }
 
-.form-contato {
+.area-form {
+  display: flex;
+  flex-direction: column;
   background: var(--white);
   padding: 2rem;
   border-radius: var(--border-radius);
