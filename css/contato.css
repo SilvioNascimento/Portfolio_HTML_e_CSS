@@ -24,7 +24,7 @@
   padding: 15px;
   border-radius: 8px;
   background: var(--white);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
 }
 
 .contatos a:hover {
