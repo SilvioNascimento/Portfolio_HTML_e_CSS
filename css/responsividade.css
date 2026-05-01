@@ -1,79 +1,78 @@
 @media (max-width: 768px) {
-    .menu-toggle {
-        display: flex;
-    }
+  .menu-toggle {
+    display: flex;
+  }
 
-    .navegacao {
-        display: none;
-        /* flex-direction: column;
+  .navegacao {
+    display: none;
+    /* flex-direction: column;
         width: 100%; */
-        margin-top: 20px;
-        background: rgba(255, 255, 255, 0.1);
-        padding: 20px;
-        border-radius: 10px;
-        align-items: center;
-    }
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+  }
 
-    /* Faz o menu aparecer quando o checkbox está marcado */
-    .menu-checkbox:checked ~ .navegacao {
-        display: flex;
-    }
+  /* Faz o menu aparecer quando o checkbox está marcado */
+  .menu-checkbox:checked ~ .navegacao {
+    display: flex;
+  }
 
-    .navegacao a {
-        width: 100%;
-        text-align: center;
-    }
+  .navegacao a {
+    width: 100%;
+    text-align: center;
+  }
 
-    .sobre-conteudo,
-    .contato-conteudo {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    
-    .imagem-contato {
-        max-height: 300px;
-    }
-    
-    .lista-formacao {
-        grid-template-columns: 1fr;
-    }
+  .sobre-conteudo,
+  .contato-conteudo {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 
-    .nome {
-        font-size: 2rem;
-    }
+  .imagem-contato {
+    max-height: 300px;
+  }
 
-    .cargo {
-        font-size: 1.1rem;
-    }
+  .lista-formacao {
+    grid-template-columns: 1fr;
+  }
 
-    .foto-perfil {
-        width: 120px;
-        height: 120px;
-    }
+  .nome {
+    font-size: 2rem;
+  }
 
-    .imagem-destaque {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+  .cargo {
+    font-size: 1.1rem;
+  }
+
+  .foto-perfil {
+    width: 120px;
+    height: 120px;
+  }
+
+  .imagem-destaque {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 480px) {
-    .container {
-        padding: 0 15px;
-    }
+  .container {
+    padding: 0 15px;
+  }
 
-    .nome {
-        font-size: 1.6rem;
-    }
+  .nome {
+    font-size: 1.6rem;
+  }
 
-    .cargo {
-        font-size: 1rem;
-    }
+  .cargo {
+    font-size: 1rem;
+  }
 
-    h2 {
-        font-size: 1.6rem;
-    }
-
+  h2 {
+    font-size: 1.6rem;
+  }
 
 }
