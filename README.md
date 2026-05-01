@@ -29,6 +29,6 @@ A seguir serão listados as inspirações que obtive após verificar seus materi
 - **JavaScript**: Atribuir a funcionalidade de carrossel nos projetos realizados no portfólio;
 - **Google Fonts**: Inserir fontes e ícones de setas para o carrossel;
 - **Font Awesome**: Atribuir ícones no portfólio;
-- **SwiperJS CSS**: Utilizar o efeito carrossel já pré-definido;
+- **SwiperJS**: Utilizar o efeito carrossel já pré-definido;
 - **Microsoft Word 2019**: Software utilizado para desenvolver o currículo;
 - **Formspree**: Serviço para enviar e-mails de um formulário HTML sem precisar ter um back-end desenvolvido.
