@@ -131,16 +131,16 @@
 
     /* Sobre */
     .lista-foco {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
 
     /* Habilidades */
     .grade-habilidades {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
 
     .grupo-habilidades li {
-        font-size: 0.8rem;
+      font-size: 0.8rem;
     }
 
     /* Contato */
