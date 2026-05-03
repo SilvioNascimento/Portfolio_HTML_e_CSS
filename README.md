@@ -31,8 +31,8 @@ A seguir serão listados as inspirações que obtive após verificar seus materi
 - **HTML5**: Desenvolver a estrutura do Portfólio;
 - **CSS3**: Estilizar os elementos do Portfólio;
 - **JavaScript**: Atribuir a funcionalidade de carrossel nos projetos realizados no portfólio;
-- **Google Fonts**: Inserir fontes e ícones de setas para o carrossel;
-- **Font Awesome**: Atribuir ícones no portfólio;
-- **SwiperJS**: Utilizar o efeito carrossel já pré-definido;
+- **Google Fonts**: Inserir fontes e ícones de setas para o carrossel. Para acessar diversas fontes e ícones, [clique aqui](https://fonts.google.com/);
+- **Font Awesome**: Atribuir ícones no portfólio. Para verificar uma extensão de ícones, [clique aqui](https://fontawesome.com/);
+- **SwiperJS**: Utilizar o efeito carrossel já pré-definido. Para acessar tanto o efeito usado quanto o que pode estar disponível, [clique aqui](https://swiperjs.com/);
 - **Microsoft Word 2019**: Software utilizado para desenvolver o currículo;
-- **Formspree**: Serviço para enviar e-mails de um formulário HTML sem precisar ter um back-end desenvolvido.
+- **Formspree**: Serviço para enviar e-mails de um formulário HTML sem precisar ter um back-end desenvolvido. Acesse o serviço [clicando aqui](https://formspree.io/).
