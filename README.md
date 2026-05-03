@@ -4,6 +4,59 @@
 
 Desenvolvimento de portfólio pessoal responsivo para centralização de trajetória acadêmica e profissional, utilizando boas práticas de estilização e integração de APIs de formulários. Além disso, também está sendo utilizado o serviço de metodologia ágil Kanban oferecido pelo GitHub.
 
+## Estrutura das pastas
+
+```text
+├── assets/               -> Agrupa ícones, imagens e outras mídias
+    ├── icons/            -> Armazena ícones para a aba de navegação
+    │   ├── favicon.ico
+    │   ├── favicon-16x16.png
+    │   ├── favicon-32x32.png
+    │   ├── apple-touch-icon.png
+    │   ├── android-chrome-192x192.png
+    │   ├── android-chrome-512x512.png
+    │   └── site.webmanifest
+    ├── images/           -> Agrupa imagens que são utilizados no portfólio
+    │   ├── Silvio.jpg
+    │   ├── images.png
+    │   ├── foto_Silvio.jpeg
+    │   ├── Clone_Yu-Gi-Oh.jpg
+    │   ├── Apresentacao_ENID.jpg
+    │   ├── Projeto_Reflorae.jpg
+    │   ├── DER_de_redeSocialPB.png
+    │   ├── Estagio_Prepara_Curso.jpg
+    │   ├── Ministrando_a_Oficina_de_JavaScript.jpg
+    │   ├── Monitoria_realizada_presencialmente.jpg
+    │   ├── Diagrama_Entidade-Relacionamento_de_apiYuGiOh.png
+    │   └── Equipe_de_desenvolvimento_Reflora_ae_reunida.jpeg
+    └── pdfs/              -> Armazena arquivos em PDF
+    │   ├── Currículo_-_Docente.pdf
+    │   └── Currículo_-_Desenvolvedor_Full Stack.pdf
+├── css/                   -> Reune arquivos de estilização
+    ├── footer.css
+    ├── variaveis.css
+    ├── main.css
+    ├── formacao.css
+    ├── navegacao_curriculo.css 
+    ├── opcoes_curriculo.css 
+    ├── secao.css 
+    ├── cabecalho.css 
+    ├── cabecalho_curriculo.css 
+    ├── habilidades.css 
+    ├── navegacao.css 
+    ├── experiencias.css 
+    ├── sobre.css 
+    ├── contato.css 
+    ├── responsividade.css 
+    └── projetos.css 
+├── js/                     -> Reune arquivos de JavaScripts, responsáveis por ditar interações às páginas web
+    └── script.js 
+├── README.md               -> Documentação do projeto
+├── pages/                  -> Agrupa páginas web adicionais 
+    └── secao_curriculos.html
+└── index.html              -> Página principal - Raíz
+```
+
 ## Inspirações
 
 A seguir serão listados as inspirações que obtive após verificar seus materiais.
