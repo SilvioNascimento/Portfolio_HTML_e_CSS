@@ -14,7 +14,7 @@
   padding: 20px;
   background: var(--light);
   border-radius: 10px;
-  min-width: 300px;
+  width: 300px;
   text-align: center;
   color: var(--dark);
   transition: var(--transition);
