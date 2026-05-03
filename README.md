@@ -1,5 +1,7 @@
 # Portfolio_HTML_e_CSS
 
+## Sobre o projeto
+
 Desenvolvimento de portfólio pessoal responsivo para centralização de trajetória acadêmica e profissional, utilizando boas práticas de estilização e integração de APIs de formulários. Além disso, também está sendo utilizado o serviço de metodologia ágil Kanban oferecido pelo GitHub.
 
 ## Inspirações
