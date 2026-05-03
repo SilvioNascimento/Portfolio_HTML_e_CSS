@@ -1,5 +1,13 @@
 # Portfolio_HTML_e_CSS
 
+---
+
+## Live Application
+
+[https://silvio-nascimento-portfolio.vercel.app/](https://silvio-nascimento-portfolio.vercel.app/)
+
+---
+
 ## Sobre o projeto
 
 Desenvolvimento de portfólio pessoal responsivo para centralização de trajetória acadêmica e profissional, utilizando boas práticas de estilização e integração de APIs de formulários. Além disso, também está sendo utilizado o serviço de metodologia ágil Kanban oferecido pelo GitHub.
@@ -9,6 +17,9 @@ Desenvolvimento de portfólio pessoal responsivo para centralização de trajet�
 ## Estrutura das pastas
 
 ```text
+├── .github/
+    ├── workflows/
+      └── deploy.yml      -> Pipeline de CI/CD: automação de deploy e proteção de variáveis de ambiente.
 ├── assets/               -> Agrupa ícones, imagens e outras mídias
     ├── docs/             -> Agrupa documentações adicionais
     │   ├── ConceitoCIeCD.md
