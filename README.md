@@ -35,4 +35,5 @@ A seguir serão listados as inspirações que obtive após verificar seus materi
 - **Font Awesome**: Atribuir ícones no portfólio. Para verificar uma extensão de ícones, [clique aqui](https://fontawesome.com/);
 - **SwiperJS**: Utilizar o efeito carrossel já pré-definido. Para acessar tanto o efeito usado quanto o que pode estar disponível, [clique aqui](https://swiperjs.com/);
 - **Microsoft Word 2019**: Software utilizado para desenvolver o currículo;
+- **favicon.io**: Plataforma online e gratuita especializada na criação e geração de favicons (ícones que aparecem na aba do navegador, favoritos e resultados de pesquisa) para sites. Acesse o site [clicando aqui](https://favicon.io/);
 - **Formspree**: Serviço para enviar e-mails de um formulário HTML sem precisar ter um back-end desenvolvido. Acesse o serviço [clicando aqui](https://formspree.io/).
