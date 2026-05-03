@@ -108,6 +108,20 @@
     .grupo-input textarea {
       font-size: 0.8rem;
     }
+
+    /* CURRÍCULO */
+    .painel-curriculos .btn-curriculo {
+      width: 100%; /* Ocupa a largura disponível */
+      max-width: 230px; /* Mas não passa de 250px */
+      padding: 15px 10px; /* Reduz o preenchimento */
+      font-size: 0.8rem; /* Ajuste leve na fonte para não ficar pequena demais */
+    }
+
+    /* Ajuste no grid para telas pequenas */
+    .painel-curriculos {
+      grid-template-columns: 1fr; /* Força uma única coluna */
+      gap: 15px;
+    }
   }
 
   @media (max-width: 360px) {
