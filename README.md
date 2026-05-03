@@ -59,29 +59,8 @@ Desenvolvimento de portfólio pessoal responsivo para centralização de trajet�
 └── index.html              -> Página principal - Raíz
 ```
 
-## Inspirações
-
-A seguir serão listados as inspirações que obtive após verificar seus materiais.
-
-- CodingNepal
-  - Tipo de material: Vídeo
-  - Link: [https://www.youtube.com/watch?v=VUtJ7FWCfZA&list=PLpwngcHZlPae68z_mLFNfbJFIJVJ_Zcx2](https://www.youtube.com/watch?v=VUtJ7FWCfZA&list=PLpwngcHZlPae68z_mLFNfbJFIJVJ_Zcx2)
-  - Descrição: Aplicar a ideia de produzir um slide de cards (estilo carrossel), com responsividade, mostrado no vídeo.
-
-- cinthialindolfo
-  - Tipo de material: Portfólio
-  - Link: [https://cinthialindolfo-portifolio.netlify.app/](https://cinthialindolfo-portifolio.netlify.app/)
-  - Descrição: Inspirar na maioria da estrutura do portfólio para desenvolver o meu próprio portfólio online.
-
-- maykonsousa
-  - Tipo de material: Portfólio
-  - Link: [https://maykonsousa.github.io/](https://maykonsousa.github.io/)
-  - Descrição: Inspirar em desenvolver uma área que o visitante pode enviar uma mensagem para o meu e-mail profissional.
-
-- Carlos-CGS
-  - Tipo de material: Portfólio
-  - Link: [https://carlos-cgs.github.io/CGS/index.html](https://carlos-cgs.github.io/CGS/index.html)
-  - Descrição: Inspirar a estrutura que divulga as formações e certificações em destaque.
+> **Nota sobre o env.js:**
+> Você notará que o arquivo js/env.js não está presente na árvore de arquivos do repositório remoto. Isso ocorre porque ele contém credenciais sensíveis. Para que o formulário funcione localmente, siga o modelo descrito na seção Rodando Localmente.
 
 ## Tecnologias utilizadas
 
