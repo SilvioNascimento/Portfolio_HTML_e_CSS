@@ -77,6 +77,7 @@ Desenvolvimento de portfólio pessoal responsivo para centralização de trajet�
 ## Rodando Localmente
 
 Clone o repositório:
+
 ```bash
 git clone https://github.com/SilvioNascimento/Portfolio_HTML_e_CSS.git
 ```
