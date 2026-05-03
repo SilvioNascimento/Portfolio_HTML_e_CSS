@@ -99,4 +99,11 @@ Se estiver utilizando o **Visual Studio Code** já com a extensão *Live Server*
 
 Caso não tenha instalado a extensão, ou você o instala e segue os comandos no parágrafo acima, ou você vai para o local que clonou o arquivo, abre-o e executa o ***index.html*** em um navegador de sua escolha.
 
-## 
+## Funcionalidades
+
+- **Navegar entre seções**: Permite navegar em cada seção de forma mais rápida, desde que clique no link (que tem o formato de botão) com o nome da seção que deseja ir;
+- **Acessar projetos**: Direciona o usuário para o repositório do projeto após clicar no card específico;
+- **Acessar meios de contato**: Direciona para a rede social que foi selecionada;
+- **Visualizar currículos**: Direciona para uma outra página que contém os botões que exibem o currículo que foi selecionado;
+- **Enviar email**: Envia um email com os dados inseridos pelo visitante (nome, email e mensagem)
+
