@@ -55,6 +55,7 @@ Desenvolvimento de portfólio pessoal responsivo para centralização de trajet�
 ├── README.md               -> Documentação do projeto
 ├── pages/                  -> Agrupa páginas web adicionais 
     └── secao_curriculos.html
+├── .gitignore              -> Define a segurança e variáveis de ambiente
 └── index.html              -> Página principal - Raíz
 ```
 
