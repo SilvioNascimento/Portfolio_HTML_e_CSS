@@ -85,7 +85,7 @@ A seguir serão listados as inspirações que obtive após verificar seus materi
 
 - **HTML5**: Desenvolver a estrutura do Portfólio;
 - **CSS3**: Estilizar os elementos do Portfólio;
-- **JavaScript**: Atribuir a funcionalidade de carrossel nos projetos realizados no portfólio;
+- **JavaScript**: Atribuir a funcionalidade de carrossel nos projetos realizados no portfólio, de resetar os campos do formulário e de inserir o link sensível para os envios de mensagens dos visitantes para o email profissional cadastrada;
 - **Google Fonts**: Inserir fontes e ícones de setas para o carrossel. Para acessar diversas fontes e ícones, [clique aqui](https://fonts.google.com/);
 - **Font Awesome**: Atribuir ícones no portfólio. Para verificar uma extensão de ícones, [clique aqui](https://fontawesome.com/);
 - **SwiperJS**: Utilizar o efeito carrossel já pré-definido. Para acessar tanto o efeito usado quanto o que pode estar disponível, [clique aqui](https://swiperjs.com/);
