@@ -1,6 +1,6 @@
 # Portfolio_HTML_e_CSS
 
-Este repositório tem como o intuito de desenvolver um portfólio pessoal, colocando em prática o que foi aprendido nas aulas de HTML e CSS.
+Desenvolvimento de portfólio pessoal responsivo para centralização de trajetória acadêmica e profissional, utilizando boas práticas de estilização e integração de APIs de formulários. Além disso, também está sendo utilizado o serviço de metodologia ágil Kanban oferecido pelo GitHub.
 
 ## Inspirações
 
