@@ -50,7 +50,8 @@ Desenvolvimento de portfólio pessoal responsivo para centralização de trajet�
     ├── responsividade.css 
     └── projetos.css 
 ├── js/                     -> Reune arquivos de JavaScripts, responsáveis por ditar interações às páginas web
-    └── script.js 
+    ├── reset.js            -> Resetar os campos do formulário
+    └── script.js           -> animação do card slider
 ├── README.md               -> Documentação do projeto
 ├── pages/                  -> Agrupa páginas web adicionais 
     └── secao_curriculos.html
