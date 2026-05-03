@@ -92,3 +92,29 @@ A seguir serão listados as inspirações que obtive após verificar seus materi
 - **Microsoft Word 2019**: Software utilizado para desenvolver o currículo;
 - **favicon.io**: Plataforma online e gratuita especializada na criação e geração de favicons (ícones que aparecem na aba do navegador, favoritos e resultados de pesquisa) para sites. Acesse o site [clicando aqui](https://favicon.io/);
 - **Formspree**: Serviço para enviar e-mails de um formulário HTML sem precisar ter um back-end desenvolvido. Acesse o serviço [clicando aqui](https://formspree.io/).
+
+## Rodando Localmente
+
+Clone o repositório:
+```bash
+git clone https://github.com/SilvioNascimento/Portfolio_HTML_e_CSS.git
+```
+
+Depois você acesse por este [link](https://formspree.io/) para ir ao serviço gratuito de Formspree. Em seguida, você se cadastra, clique em **+ Add New** e selecione a opção *New Form*, informe os dados que está pedindo, e quando aparecer o link do ***Form endpoint***, copie-o.
+
+Quando abrir a pasta do projeto **Portolio_HTML_e_CSS**, abre a pasta *js*. Crie um novo arquivo chamado ***env.js*** e insere o código abaixo (Cole o link do form que copiou no lugar de *INSERIR_O_LINK_DO_FORM_AQUI*):
+
+```js
+document.addEventListener("DOMContentLoaded", () => {
+  const formulario = document.getElementById("form-contato");
+  if (formulario) {
+    formulario.action = "INSERIR_O_LINK_DO_FORM_AQUI";
+  }
+});
+```
+
+Se estiver utilizando o **Visual Studio Code** já com a extensão *Live Server*, então selecione o arquivo ***index.html*** e clique no botão ***Go Live*** para executá-lo em um servidor gerado.
+
+Caso não tenha instalado a extensão, ou você o instala e segue os comandos no parágrafo acima, ou você vai para o local que clonou o arquivo, abre-o e executa o ***index.html*** em um navegador de sua escolha.
+
+## 
