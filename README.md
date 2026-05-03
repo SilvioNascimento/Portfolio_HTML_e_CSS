@@ -130,3 +130,84 @@ A seguir serão listados as inspirações que obtive após verificar seus materi
   - Tipo de material: Portfólio
   - Link: [https://carlos-cgs.github.io/CGS/index.html](https://carlos-cgs.github.io/CGS/index.html)
   - Descrição: Inspirar a estrutura que divulga as formações e certificações em destaque.
+
+## ⚙️ Automação e Deploy (CI/CD)
+
+Este projeto utiliza uma pipeline de **CI/CD** (Integração Contínua e Entrega Contínua) para automatizar o processo de build, proteger credenciais e realizar a publicação do portfólio.
+
+### 🛠️ Tecnologias Utilizadas
+- **GitHub Actions**: Responsável por executar o fluxo de automação (o "robô").
+- **Vercel CLI**: Utilizada para realizar a comunicação e o deploy entre o GitHub e o servidor.
+- **GitHub Secrets**: Um "cofre" seguro onde armazenamos chaves de API e IDs sensíveis.
+
+---
+
+### 🔒 Segurança e o arquivo `env.js`
+
+Uma das principais funcionalidades da nossa pipeline é a **proteção do endpoint do Formspree**. 
+
+1. **O Problema**: Expor o ID do formulário no GitHub atrai robôs de spam.
+2. **A Solução**: O arquivo `js/env.js` está listado no `.gitignore` e nunca é enviado ao repositório público.
+3. **A Automação**: Durante o deploy, o GitHub Actions lê o link secreto do Formspree (armazenado nos *Secrets*) e **cria o arquivo `env.js` dinamicamente** apenas para o ambiente de produção.
+
+---
+
+### 🚀 Passo a Passo da Configuração
+
+Se você deseja replicar este fluxo de deploy automatizado:
+
+#### 1. Configurar Secrets no GitHub
+
+Vá em **Settings > Secrets and variables > Actions** e adicione:
+
+- `FORMSPREE_LINK`: O link completo do seu formulário.
+- `VERCEL_TOKEN`: Token gerado no painel da Vercel.
+- `VERCEL_ORG_ID`: O `orgId` encontrado no arquivo `.vercel/project.json`.
+- `VERCEL_PROJECT_ID`: O `projectId` encontrado no arquivo `.vercel/project.json`.
+
+#### 2. Criar o Workflow
+
+Crie o arquivo `.github/workflows/deploy.yml` com a seguinte instrução:
+
+```yaml
+name: Deploy para Vercel
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Gerar env.js dinamicamente
+        run: |
+          mkdir -p js
+          echo "document.addEventListener('DOMContentLoaded', () => { 
+            const f = document.getElementById('form-contato'); 
+            if(f) f.action = '${{ secrets.FORMSPREE_LINK }}'; 
+          });" > js/env.js
+
+      - name: Deploy para Vercel
+        uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: '--prod'
+```
+
+### 3. Execução
+
+Basta realizar um git push. Você pode acompanhar o progresso na aba Actions do seu repositório. Quando o processo finalizar, o site estará atualizado e o formulário de contato funcional.
+
+```text
+---
+
+### 3. Exemplos Práticos no Dia a Dia
+
+*   **Cenário A (Mudei de e-mail):** Em vez de abrir o código, procurar o link do Formspree, alterar, salvar e dar push, você apenas vai no GitHub, altera o valor do Secret `FORMSPREE_LINK` e pronto. O próximo deploy já usará o e-mail novo.
+*   **Cenário B (Novo membro na equipe):** Se alguém clonar seu projeto, o site dele não terá o link do seu e-mail (segurança), mas ele verá no seu README como configurar o próprio e-mail dele para testes locais.
+*   **Cenário C (Atualização de CSS):** Você altera o `contato.css`. Ao dar push, o CI/CD garante que, além do novo estilo, o arquivo `env.js` (que não existe no GitHub) seja incluído no pacote final para a Vercel, mantendo o formulário sempre ativo.
+```
