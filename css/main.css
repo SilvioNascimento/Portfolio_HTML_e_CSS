@@ -8,6 +8,33 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--light) var(--primary-dark);
+}
+
+/* 2. Para Chrome, Edge e Safari (Webkit) */
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; 
+  height: 10px;
+}
+
+/* Trilha (o fundo da barra) */
+::-webkit-scrollbar-track {
+  background: var(--primary-dark);
+  border-radius: 10px;
+}
+
+/* Thumb (a alça que arrasta) */
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 10px;
+  border: 3px solid var(--primary-dark); /* Cria um efeito de espaçamento */
+}
+
+/* Efeito Hover no Thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light);
 }
 
 body {
