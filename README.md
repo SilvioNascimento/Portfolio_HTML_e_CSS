@@ -10,7 +10,7 @@
 
 ## Sobre o projeto
 
-Desenvolvimento de portfólio pessoal responsivo para centralização de trajetória acadêmica e profissional, utilizando boas práticas de estilização e integração de APIs de formulários. Além disso, também está sendo utilizado o serviço de metodologia ágil Kanban oferecido pelo GitHub.
+Desenvolvimento de um portfólio digital responsivo para centralização de trajetória acadêmica e técnica. O projeto vai além do Front-end convencional, implementando uma pipeline de CI/CD via GitHub Actions para automação de builds e deploys na Vercel. Focado em segurança e escalabilidade, utiliza a geração dinâmica de scripts para proteção de variáveis de ambiente e integração de APIs de terceiros (Formspree) sem exposição de dados sensíveis. O fluxo de desenvolvimento foi gerenciado sob metodologia ágil Kanban, garantindo entregas contínuas e organização de backlog.
 
 ---
 
